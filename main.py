@@ -1,7 +1,7 @@
 from turtle import *
 
 t1 = Turtle() 
-
+t1.shape('circle')
 def draw(x,y):
     t1.goto(x,y)
 t1.ondrag(draw)
@@ -26,7 +26,16 @@ def right():
     t1.right(90)
     t1.forward(5)
 scr.onkey(right , 'Right')
-def  colorr():
+def  color1():
     t1.color('aqua')
-scr.onkey(colorr , 'r')
+scr.onkey(color1 , 'r')
+def color2():
+    t1.color('red')
+scr.onkey(color2, 't')
+def color3():
+    t1.color('green')
+scr.onkey(color3, 'y')
+
+
+
 
