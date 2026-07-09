@@ -35,7 +35,11 @@ scr.onkey(color2, 't')
 def color3():
     t1.color('green')
 scr.onkey(color3, 'y')
-
-
+def start_fill():
+    t1.begin_fill()
+scr.onkey(start_fill, 'u')
+def endfill():
+    t1.end_fill()
+scr.onkey(endfill, 'i')
 
 
